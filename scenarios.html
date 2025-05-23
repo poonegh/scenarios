@@ -6,28 +6,66 @@
   <title>Climate Model Descriptions - SSP1-2.6</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 2rem;
-      background-color: #f9f9f9;
-      color: #333;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.7;
+      background-color: #f4f7f9;
       color: #2c3e50;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 40px 20px;
     }
+
+    h1 {
+      text-align: center;
+      color: #1da8cd;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
     .model {
-      margin-bottom: 2rem;
-      padding-bottom: 1rem;
-      border-bottom: 1px solid #ccc;
+      background-color: #ffffff;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+      padding: 20px 25px;
+      margin-bottom: 25px;
+      transition: box-shadow 0.3s ease;
     }
+
+    .model:hover {
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #34495e;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
     .institution {
-      font-weight: bold;
-      color: #555;
+      font-weight: 600;
+      color: #6c757d;
+      font-size: 0.95rem;
+      margin-bottom: 12px;
     }
+
     .overview {
-      margin-top: 0.5rem;
+      font-size: 1rem;
+      color: #444;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      h2 {
+        font-size: 1.25rem;
+      }
     }
   </style>
 </head>
